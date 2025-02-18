@@ -1,5 +1,7 @@
+res://scenes/main_menu.tscn
 res://scenes/ship.tscn
 res://scenes/space.tscn
-res://scenes/player.tscn
-res://scenes/main.tscn
+res://scripts/main_menu.gd
+res://scripts/jouer.gd
+res://scenes/quit_game.gd
 res://scripts/ship.gd

@@ -1,16 +1,24 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1739809267
+::res://::1739872924
 icon.svg::CompressedTexture2D::7578335257650251794::1739806608::1739806636::1::::<><>::
 README.md::TextFile::-1::1739806608::0::1::::<><>::
-::res://assets/::1739807784
+::res://assets/::1739875089
 back.png::CompressedTexture2D::6247418301641195240::1739807677::1739807784::1::::<><>::
+Fusée.png::CompressedTexture2D::3408073547701215119::1739872030::1739872076::1::::<><>::
+Jouer.png::CompressedTexture2D::1754074124775080027::1739872525::1739872607::1::::<><>::
+Page d'acceuil JOUER.png::CompressedTexture2D::8969550740562463597::1739872051::1739872067::1::::<><>::
+Page d'acceuil QUITTER.png::CompressedTexture2D::3207999200533756140::1739872058::1739872067::1::::<><>::
+Page d'acceuil space run.jpg::CompressedTexture2D::406573635668428753::1739872044::1739872069::1::::<><>::
+Quitter.png::CompressedTexture2D::8752102364928935503::1739872738::1739872750::1::::<><>::
 ship003.png::CompressedTexture2D::2100180115521172127::1739807226::1739807257::1::::<><>::
-ship.png::CompressedTexture2D::4141589228917772317::1739806608::1739806636::1::::<><>::
-::res://scenes/::1739809011
-main.tscn::PackedScene::8064139236280676243::1739806608::0::1::::<><>::uid://bnioifu3pu2qs::::res://scenes/player.tscn
-player.tscn::PackedScene::3316255292075863726::1739806608::0::1::::<><>::res://scripts/player.gd
-ship.tscn::PackedScene::4460265988890484320::1739808984::0::1::::<><>::res://scripts/ship.gd<>uid://46lwotmyog0f::::res://assets/ship003.png
-space.tscn::PackedScene::4262603860753895134::1739809011::0::1::::<><>::uid://cvakcjcl55q8w::::res://assets/back.png<>uid://b4st6uewbpybw::::res://scenes/ship.tscn
-::res://scripts/::1739809011
+true_ship.png::CompressedTexture2D::5824216875719535980::1739875080::1739875109::1::::<><>::
+::res://scenes/::1739874921
+main_menu.tscn::PackedScene::2325188263009245817::1739874763::0::1::::<><>::uid://f17hc5do0sll::::res://assets/Page d'acceuil space run.jpg<>res://scripts/main_menu.gd<>uid://y8xlykwc1wvj::::res://assets/Jouer.png<>uid://dwxt32onv5xel::::res://assets/Quitter.png<>res://scripts/jouer.gd<>res://scenes/quit_game.gd
+quit_game.gd::GDScript::-1::1739874646::0::1::::<>Area2D<>::
+ship.tscn::PackedScene::4460265988890484320::1739874763::0::1::::<><>::res://scripts/ship.gd<>uid://46lwotmyog0f::::res://assets/ship003.png
+space.tscn::PackedScene::4262603860753895134::1739874921::0::1::::<><>::uid://cvakcjcl55q8w::::res://assets/back.png
+::res://scripts/::1739874376
+main_menu.gd::GDScript::-1::1739873866::0::1::::<>Node2D<>::
 player.gd::GDScript::-1::1739806608::0::1::::<>CharacterBody2D<>::
-ship.gd::GDScript::-1::1739809011::0::1::::<>CharacterBody2D<>::
+jouer.gd::GDScript::-1::1739874376::0::1::::<>Area2D<>::
+ship.gd::GDScript::-1::1739811473::0::1::::<>CharacterBody2D<>::

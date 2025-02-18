@@ -3,12 +3,12 @@
 [ext_resource type="Texture2D" uid="uid://cvakcjcl55q8w" path="res://assets/back.png" id="1_2na6c"]
 [ext_resource type="PackedScene" uid="uid://b4st6uewbpybw" path="res://scenes/ship.tscn" id="2_rmvoa"]
 
-[node name="Sprite2D" type="Sprite2D"]
-position = Vector2(1, -0.00012207)
-scale = Vector2(0.35498, 0.296875)
+[node name="Camera2D" type="Camera2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0.750244, 14)
+scale = Vector2(0.940674, 0.726562)
 texture = ExtResource("1_2na6c")
 
-[node name="Camera2D" type="Camera2D" parent="."]
-
 [node name="CharacterBody2D" parent="." instance=ExtResource("2_rmvoa")]
-position = Vector2(-326.779, -97.6838)
+position = Vector2(-754, -95)
