@@ -1,10 +1,13 @@
+CollisionPolygon2D
+StaticBody2D
+RigidBody2D
+Polygon2D
 Label
 RichTextLabel
 CollisionShape2D
 Area2D
 TextEdit
 Camera2D
-CollisionPolygon2D
 Node2D
 Sprite2D
 CharacterBody2D

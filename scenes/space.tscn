@@ -12,3 +12,8 @@ texture = ExtResource("1_2na6c")
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("2_rmvoa")]
 position = Vector2(-754, -95)
+
+[node name="RigidBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D"]
+polygon = PackedVector2Array(-915, -507, -912, 516, 1079, 522, 1029, 647, -1175, 644, -1019, -674, 1099, -640, 930, 550, 867, -510)
