@@ -2,3 +2,4 @@ res://scenes/ship.tscn
 res://scenes/space.tscn
 res://scenes/player.tscn
 res://scenes/main.tscn
+res://scripts/ship.gd
