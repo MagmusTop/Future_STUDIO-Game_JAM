@@ -14,8 +14,8 @@ func _process(delta: float) -> void:
 func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
 	if event is InputEventMouseButton and event.pressed:
 		if event.button_index == MOUSE_BUTTON_LEFT:
-			var game_scene = load("res://scenes/space.tscn")
-			get_tree().change_scene_to_file("res://scenes/space.tscn")
+			var game_scene = load("res://scenes/modules_menu.tscn")
+			get_tree().change_scene_to_file("res://scenes/modules_menu.tscn")
 
 func _on_mouse_entered() -> void:
 	modulate = Color(1.2, 1.2, 1.2)

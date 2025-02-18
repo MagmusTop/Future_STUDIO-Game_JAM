@@ -1,7 +1,9 @@
 res://scenes/main_menu.tscn
 res://scenes/ship.tscn
 res://scenes/space.tscn
-res://scripts/main_menu.gd
-res://scripts/jouer.gd
-res://scenes/quit_game.gd
-res://scripts/ship.gd
+res://scenes/modules_menu.tscn
+res://scenes/histoire.gd
+res://scenes/geographie.gd
+res://scenes/maths.gd
+res://scenes/conjugaison.gd
+res://scripts/science_physique_technologiques.gd

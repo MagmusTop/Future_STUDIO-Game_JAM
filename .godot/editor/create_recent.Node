@@ -1,7 +1,10 @@
-Area2D
-CollisionPolygon2D
+Label
+RichTextLabel
 CollisionShape2D
-Node2D
+Area2D
+TextEdit
 Camera2D
+CollisionPolygon2D
+Node2D
 Sprite2D
 CharacterBody2D
