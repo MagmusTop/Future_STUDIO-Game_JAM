@@ -1,6 +1,6 @@
 # Knowledge Guardian
 
-Knowledge Guardian est un jeu vidéo éducatif qui propose une manière unique d’apprendre en s’amusant. Conçu principalement pour les élèves, il stimule la réflexion et la synthèse tout en améliorant la culture générale.
+Knowledge Guardian est un jeu vidéo éducatif développé dans le cadre de la GameJam 2025 organisée par Future Studio et le GameHub Sénégal avec pour thème "La vulgarisation scientifique". Ce jeu conçu principalement pour les élèves/étudiants propose une manière ludique d'apprendre en stimulant la réflexion et la synthèse, tout en améliorant la culture générale.
 
 ## 🌌 Univers
 
