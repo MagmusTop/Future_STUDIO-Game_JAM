@@ -13,7 +13,6 @@ config_version=5
 config/name="planet"
 run/main_scene="res://scenes/main_menu.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
-boot_splash/image="res://assets/Planètes3.png"
 config/icon="res://icon.svg"
 boot_splash/minimum_display_time=2000
 
@@ -26,6 +25,11 @@ window/stretch/mode="canvas_items"
 [dotnet]
 
 project/assembly_name="planet"
+
+[global_group]
+
+astro=""
+Texts=""
 
 [rendering]
 

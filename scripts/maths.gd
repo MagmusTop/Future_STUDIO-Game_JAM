@@ -1,0 +1,33 @@
+extends Area2D
+
+@onready var planet_name = $"../MathsName"
+@onready var hover_sound = $"../HoverSound"
+@onready var click_sound = $"../ClickSound"
+var maths = 0
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	if maths == 0:
+		planet_name.set_text("")
+	elif maths == 1:
+		planet_name.set_text("Mathématiques")
+
+func _on_mouse_entered() -> void:
+	hover_sound.play()
+	maths = 1
+	modulate = Color(1.4, 1.4, 1.4)
+
+func _on_mouse_exited() -> void:
+	maths = 0
+	modulate = Color(1, 1, 1)
+
+func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
+	if event is InputEventMouseButton and event.pressed:
+		if event.button_index == MOUSE_BUTTON_LEFT:
+			click_sound.play()
+			var game_scene = load("res://scenes/maths_quiz.tscn")
+			get_tree().change_scene_to_file("res://scenes/maths_quiz.tscn")

@@ -1,17 +1,20 @@
-[gd_scene load_steps=14 format=3 uid="uid://blqop2ndwnk1e"]
+[gd_scene load_steps=17 format=3 uid="uid://blqop2ndwnk1e"]
 
-[ext_resource type="Texture2D" uid="uid://cvakcjcl55q8w" path="res://assets/back.png" id="1_awuqd"]
+[ext_resource type="Texture2D" uid="uid://1cnd6to2xfen" path="res://assets/Background menu selection.png" id="1_ychij"]
 [ext_resource type="Script" path="res://scripts/science_physique_technologiques.gd" id="2_1wc5h"]
-[ext_resource type="Texture2D" uid="uid://cqodojy4p7omh" path="res://assets/Planètes1.png" id="2_4pphv"]
-[ext_resource type="Script" path="res://scenes/histoire.gd" id="4_lv4fm"]
-[ext_resource type="Texture2D" uid="uid://b1bbhafuv6c0b" path="res://assets/Planètes2.png" id="4_te6no"]
-[ext_resource type="Texture2D" uid="uid://dasv012orclit" path="res://assets/Planètes3.png" id="5_te8kd"]
-[ext_resource type="Script" path="res://scenes/geographie.gd" id="6_6l0kh"]
-[ext_resource type="Texture2D" uid="uid://xqea2878eecu" path="res://assets/Planètes4.png" id="6_6sy5p"]
-[ext_resource type="Texture2D" uid="uid://pjblsugfvor" path="res://assets/Planètes5.png" id="7_8e0qs"]
+[ext_resource type="Texture2D" uid="uid://dstj5bvddimhv" path="res://assets/imagecompressor/Planètes1-min.png" id="3_ffr5i"]
+[ext_resource type="Script" path="res://scripts/histoire.gd" id="4_5ur64"]
+[ext_resource type="Texture2D" uid="uid://bmjmtwe8wweln" path="res://assets/imagecompressor/Planètes2-min.png" id="5_82v8x"]
+[ext_resource type="Script" path="res://scripts/geographie.gd" id="6_nr43r"]
+[ext_resource type="Texture2D" uid="uid://e33jm2cdfi0k" path="res://assets/imagecompressor/Planètes3-min.png" id="7_v80tk"]
+[ext_resource type="Script" path="res://scripts/maths.gd" id="8_cw0or"]
 [ext_resource type="FontFile" uid="uid://cupbwx7kqt1hn" path="res://assets/space-age/space age.ttf" id="8_us18b"]
-[ext_resource type="Script" path="res://scenes/maths.gd" id="8_wqa52"]
-[ext_resource type="Script" path="res://scenes/conjugaison.gd" id="10_2gpco"]
+[ext_resource type="Texture2D" uid="uid://cm83bywxxvw46" path="res://assets/imagecompressor/Planètes4-min.png" id="9_xqhi4"]
+[ext_resource type="Script" path="res://scripts/conjugaison.gd" id="10_fxkn7"]
+[ext_resource type="Texture2D" uid="uid://dd0b6inb1ckpd" path="res://assets/imagecompressor/Planètes5-min.png" id="11_yxcde"]
+[ext_resource type="AudioStream" uid="uid://d3b1n6mrov7ni" path="res://assets/sound/kenney_interface-sounds/Audio/toggle_001.ogg" id="13_xmkyt"]
+[ext_resource type="AudioStream" uid="uid://pybdg3twj36d" path="res://assets/sound/Menu Selection Click.wav" id="14_5as5m"]
+[ext_resource type="AudioStream" uid="uid://dwvn1q1d6vgs4" path="res://assets/sound/Floating Choices.mp3" id="15_bw5b6"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_1egqs"]
 radius = 84.006
@@ -21,9 +24,9 @@ radius = 84.006
 [node name="Camera2D" type="Camera2D" parent="."]
 
 [node name="Back" type="Sprite2D" parent="."]
-position = Vector2(-1, -1)
-scale = Vector2(0.952393, 0.716146)
-texture = ExtResource("1_awuqd")
+position = Vector2(-8.99992, 11)
+scale = Vector2(0.277366, 0.227374)
+texture = ExtResource("1_ychij")
 
 [node name="Area2D" type="Area2D" parent="."]
 position = Vector2(104, 24)
@@ -33,21 +36,21 @@ metadata/_edit_group_ = true
 [node name="Sciences" type="Sprite2D" parent="Area2D"]
 position = Vector2(-768, -99)
 scale = Vector2(0.0436859, 0.0423553)
-texture = ExtResource("2_4pphv")
+texture = ExtResource("3_ffr5i")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 position = Vector2(-778, -100)
 shape = SubResource("CircleShape2D_1egqs")
 
 [node name="Area2D2" type="Area2D" parent="."]
-position = Vector2(398, 304)
-script = ExtResource("4_lv4fm")
+position = Vector2(564, 402)
+script = ExtResource("4_5ur64")
 metadata/_edit_group_ = true
 
 [node name="Histoire" type="Sprite2D" parent="Area2D2"]
 position = Vector2(-777.125, -101.031)
 scale = Vector2(0.0410847, 0.0415365)
-texture = ExtResource("4_te6no")
+texture = ExtResource("5_82v8x")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2"]
 position = Vector2(-774, -98)
@@ -55,13 +58,13 @@ shape = SubResource("CircleShape2D_1egqs")
 
 [node name="Area2D3" type="Area2D" parent="."]
 position = Vector2(764, -6)
-script = ExtResource("6_6l0kh")
+script = ExtResource("6_nr43r")
 metadata/_edit_group_ = true
 
 [node name="Geographie" type="Sprite2D" parent="Area2D3"]
 position = Vector2(-774.125, -96.0312)
 scale = Vector2(0.0419399, 0.0435522)
-texture = ExtResource("5_te8kd")
+texture = ExtResource("7_v80tk")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D3"]
 position = Vector2(-778, -100)
@@ -69,13 +72,13 @@ shape = SubResource("CircleShape2D_1egqs")
 
 [node name="Area2D4" type="Area2D" parent="."]
 position = Vector2(1130, 310)
-script = ExtResource("8_wqa52")
+script = ExtResource("8_cw0or")
 metadata/_edit_group_ = true
 
 [node name="Maths" type="Sprite2D" parent="Area2D4"]
 position = Vector2(-779.125, -99.0312)
 scale = Vector2(0.0405146, 0.0423428)
-texture = ExtResource("6_6sy5p")
+texture = ExtResource("9_xqhi4")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D4"]
 position = Vector2(-778, -100)
@@ -83,13 +86,13 @@ shape = SubResource("CircleShape2D_1egqs")
 
 [node name="Area2D5" type="Area2D" parent="."]
 position = Vector2(1430, 62)
-script = ExtResource("10_2gpco")
+script = ExtResource("10_fxkn7")
 metadata/_edit_group_ = true
 
 [node name="Conjugaison" type="Sprite2D" parent="Area2D5"]
 position = Vector2(-778.125, -99.0312)
 scale = Vector2(0.0407996, 0.0423428)
-texture = ExtResource("7_8e0qs")
+texture = ExtResource("11_yxcde")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D5"]
 position = Vector2(-778, -100)
@@ -106,43 +109,60 @@ text = "ENVOLE TOI POUR UNE DE CES PLANETES !"
 
 [node name="ConjName" type="Label" parent="."]
 offset_left = 584.0
-offset_top = 62.0
+offset_top = -156.0
 offset_right = 726.0
-offset_bottom = 85.0
+offset_bottom = -133.0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_fonts/font = ExtResource("8_us18b")
+theme_override_font_sizes/font_size = 20
 
 [node name="GeoName" type="Label" parent="."]
-offset_left = -78.0
-offset_top = 2.0
-offset_right = 64.0
-offset_bottom = 25.0
+offset_left = -90.0
+offset_top = -222.0
+offset_right = 60.0
+offset_bottom = -199.0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_fonts/font = ExtResource("8_us18b")
+theme_override_font_sizes/font_size = 20
 
 [node name="MathsName" type="Label" parent="."]
-offset_left = 260.0
-offset_top = 314.0
-offset_right = 456.0
-offset_bottom = 355.0
+offset_left = 262.0
+offset_top = 86.0
+offset_right = 458.0
+offset_bottom = 127.0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_fonts/font = ExtResource("8_us18b")
+theme_override_font_sizes/font_size = 20
 
 [node name="SciencesName" type="Label" parent="."]
-offset_left = -888.0
-offset_top = 22.0
-offset_right = -692.0
-offset_bottom = 63.0
+offset_left = -882.0
+offset_top = -216.0
+offset_right = -686.0
+offset_bottom = -175.0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_fonts/font = ExtResource("8_us18b")
+theme_override_font_sizes/font_size = 20
 
 [node name="HistoireName" type="Label" parent="."]
-offset_left = -428.0
-offset_top = 310.0
-offset_right = -232.0
-offset_bottom = 351.0
+offset_left = -280.0
+offset_top = 164.0
+offset_right = -84.0
+offset_bottom = 205.0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_fonts/font = ExtResource("8_us18b")
+theme_override_font_sizes/font_size = 20
+
+[node name="HoverSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("13_xmkyt")
+volume_db = -10.0
+
+[node name="ClickSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("14_5as5m")
+
+[node name="ModMenuSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("15_bw5b6")
+autoplay = true
+parameters/looping = true
 
 [connection signal="input_event" from="Area2D" to="Area2D" method="_on_input_event"]
 [connection signal="mouse_entered" from="Area2D" to="Area2D" method="_on_mouse_entered"]

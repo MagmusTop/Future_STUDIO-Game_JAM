@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ctrs5r0sgse7n"
+path="res://.godot/imported/Cosmic Menu.mp3-ade743752bbf1f6f4bbefc1edeeda427.mp3str"
+
+[deps]
+
+source_file="res://assets/sound/Cosmic Menu.mp3"
+dest_files=["res://.godot/imported/Cosmic Menu.mp3-ade743752bbf1f6f4bbefc1edeeda427.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

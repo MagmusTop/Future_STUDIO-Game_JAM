@@ -1,35 +1,178 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1739882406
+::res://::1740034575
+export_presets.cfg::TextFile::-1::1739888491::0::1::::<><>::
 icon.svg::CompressedTexture2D::7578335257650251794::1739806608::1739806636::1::::<><>::
 README.md::TextFile::-1::1739806608::0::1::::<><>::
-::res://assets/::1739882540
+test.gd::GDScript::-1::1739961565::0::1::::<>Node<>::
+::res://assets/::1740032098
+Astronaute1.png::CompressedTexture2D::3813172808176616699::1739962035::1739962232::1::::<><>::
+Astronaute2.png::CompressedTexture2D::1062673637444209146::1739962048::1739962217::1::::<><>::
+Astronaute3.png::CompressedTexture2D::5501665347467589288::1739962053::1739962222::1::::<><>::
+Astronaute4.png::CompressedTexture2D::3985107107358539008::1739962057::1739962229::1::::<><>::
+Astronaute5.png::CompressedTexture2D::4160412748276538660::1739962063::1739962222::1::::<><>::
 back.png::CompressedTexture2D::6247418301641195240::1739807677::1739807784::1::::<><>::
+Background menu selection.png::CompressedTexture2D::1829835026632865553::1739961733::1739961765::1::::<><>::
 Fusée.png::CompressedTexture2D::3408073547701215119::1739872030::1739872076::1::::<><>::
+Galaxie.jpg::CompressedTexture2D::9202605599137707963::1739961749::1739961765::1::::<><>::
 Jouer.png::CompressedTexture2D::1754074124775080027::1739872525::1739872607::1::::<><>::
 Page d'acceuil JOUER.png::CompressedTexture2D::8969550740562463597::1739872051::1739872067::1::::<><>::
 Page d'acceuil QUITTER.png::CompressedTexture2D::3207999200533756140::1739872058::1739872067::1::::<><>::
 Page d'acceuil space run.jpg::CompressedTexture2D::406573635668428753::1739872044::1739872069::1::::<><>::
-Planètes1.png::CompressedTexture2D::5924971817368928999::1739880406::1739880425::1::::<><>::
-Planètes2.png::CompressedTexture2D::4213468222248118755::1739881689::1739881740::1::::<><>::
-Planètes3.png::CompressedTexture2D::7197741960323825519::1739881691::1739881727::1::::<><>::
-Planètes4.png::CompressedTexture2D::1647617786317961304::1739881699::1739881727::1::::<><>::
-Planètes5.png::CompressedTexture2D::31514511519978569::1739881703::1739881727::1::::<><>::
 Quitter.png::CompressedTexture2D::8752102364928935503::1739872738::1739872750::1::::<><>::
-ship003.png::CompressedTexture2D::2100180115521172127::1739807226::1739807257::1::::<><>::
+Space nigga expression faciales bonne reponse 1.png::CompressedTexture2D::3640783944330908403::1739988264::1739988365::1::::<><>::
+Space nigga expression faciales bonne reponse 2.png::CompressedTexture2D::666017057088774678::1739988270::1739988365::1::::<><>::
+Space nigga expression faciales mauvaise reponse 1.png::CompressedTexture2D::212402166773708706::1739988275::1739988365::1::::<><>::
+Space nigga expression faciales mauvaise reponse 2.png::CompressedTexture2D::2158131217418249503::1739988279::1739988363::1::::<><>::
 true_ship.png::CompressedTexture2D::5824216875719535980::1739875080::1739875109::1::::<><>::
-::res://assets/space-age/::1739882531
+::res://assets/imagecompressor/::1740031881
+Planètes1-min.png::CompressedTexture2D::8462484525747953603::1740031667::1740031868::1::::<><>::
+Planètes2-min.png::CompressedTexture2D::3248029904355977155::1740031698::1740031867::1::::<><>::
+Planètes3-min.png::CompressedTexture2D::340274771693415764::1740031729::1740031870::1::::<><>::
+Planètes4-min.png::CompressedTexture2D::5684935114140632137::1740031759::1740031880::1::::<><>::
+Planètes5-min.png::CompressedTexture2D::7421554542798242361::1740031784::1740031881::1::::<><>::
+::res://assets/sound/::1740030373
+510918__theojt__mysterious-ethereal-song.mp3::AudioStreamMP3::8391143273763197455::1739998134::1739998934::1::::<><>::
+650556__stephiequeen__communicate-song-loop.ogg::AudioStreamOggVorbis::8076159506005231221::1739998080::1739998934::1::::<><>::
+applause.mp3::AudioStreamMP3::2411177652884229901::1740030352::1740030373::1::::<><>::
+correct.mp3::AudioStreamMP3::6409581703656409691::1740030323::1740030373::1::::<><>::
+Cosmic Menu.mp3::AudioStreamMP3::6142671230358408525::1739999123::1739999133::1::::<><>::
+false.wav::AudioStreamWAV::3444934997825001113::1740030335::1740030373::1::::<><>::
+Floating Choices.mp3::AudioStreamMP3::8747605176215845009::1740002431::1740002441::1::::<><>::
+Ian Post - Super Duper.mp3::AudioStreamMP3::5954609729154576873::1739998182::1739998934::1::::<><>::
+Infinite Orbit.mp3::AudioStreamMP3::9209760812194391245::1740030109::1740030124::1::::<><>::
+Menu Selection Click.wav::AudioStreamWAV::1102444154330085657::1740000536::1740000547::1::::<><>::
+::res://assets/sound/kenney_interface-sounds/::1739999933
+License.txt::TextFile::-1::1581379182::0::1::::<><>::
+::res://assets/sound/kenney_interface-sounds/Audio/::1740000040
+back_001.ogg::AudioStreamOggVorbis::489689980130170805::1581871408::1740000039::1::::<><>::
+back_002.ogg::AudioStreamOggVorbis::4740556102025348059::1581871408::1740000039::1::::<><>::
+back_003.ogg::AudioStreamOggVorbis::130013754468135890::1581871408::1740000039::1::::<><>::
+back_004.ogg::AudioStreamOggVorbis::3186023731078742951::1581871408::1740000039::1::::<><>::
+bong_001.ogg::AudioStreamOggVorbis::4435507376634695077::1574768184::1740000039::1::::<><>::
+click_001.ogg::AudioStreamOggVorbis::1984319897283442721::1574768184::1740000039::1::::<><>::
+click_002.ogg::AudioStreamOggVorbis::8402950258996189391::1574768186::1740000039::1::::<><>::
+click_003.ogg::AudioStreamOggVorbis::2209080463639281266::1574768186::1740000039::1::::<><>::
+click_004.ogg::AudioStreamOggVorbis::8362658712881599189::1574768186::1740000039::1::::<><>::
+click_005.ogg::AudioStreamOggVorbis::3955487552454186342::1574768186::1740000039::1::::<><>::
+close_001.ogg::AudioStreamOggVorbis::3653185614646291552::1581860318::1740000039::1::::<><>::
+close_002.ogg::AudioStreamOggVorbis::5664013773553089461::1581860318::1740000039::1::::<><>::
+close_003.ogg::AudioStreamOggVorbis::4184359932216258513::1581860318::1740000039::1::::<><>::
+close_004.ogg::AudioStreamOggVorbis::5441428185171006396::1581860318::1740000039::1::::<><>::
+confirmation_001.ogg::AudioStreamOggVorbis::8849041641776767933::1581860120::1740000039::1::::<><>::
+confirmation_002.ogg::AudioStreamOggVorbis::6888386686949873688::1581860120::1740000039::1::::<><>::
+confirmation_003.ogg::AudioStreamOggVorbis::800764311370985264::1581860120::1740000039::1::::<><>::
+confirmation_004.ogg::AudioStreamOggVorbis::4487284140920695676::1581860120::1740000039::1::::<><>::
+drop_001.ogg::AudioStreamOggVorbis::7617269851589711558::1574768186::1740000039::1::::<><>::
+drop_002.ogg::AudioStreamOggVorbis::4309450525846007728::1574768188::1740000039::1::::<><>::
+drop_003.ogg::AudioStreamOggVorbis::9011114629540391339::1574768188::1740000039::1::::<><>::
+drop_004.ogg::AudioStreamOggVorbis::433738584841723608::1574768188::1740000039::1::::<><>::
+error_001.ogg::AudioStreamOggVorbis::5839823984622575977::1574768188::1740000039::1::::<><>::
+error_002.ogg::AudioStreamOggVorbis::5758334946635152286::1574768190::1740000039::1::::<><>::
+error_003.ogg::AudioStreamOggVorbis::489733775724942910::1574768190::1740000039::1::::<><>::
+error_004.ogg::AudioStreamOggVorbis::1888815235380706369::1574768190::1740000040::1::::<><>::
+error_005.ogg::AudioStreamOggVorbis::7793224426598314852::1574768190::1740000040::1::::<><>::
+error_006.ogg::AudioStreamOggVorbis::5663166828482455175::1574768190::1740000040::1::::<><>::
+error_007.ogg::AudioStreamOggVorbis::4741655412378092226::1581378864::1740000040::1::::<><>::
+error_008.ogg::AudioStreamOggVorbis::6363161387924188134::1581866348::1740000040::1::::<><>::
+glass_001.ogg::AudioStreamOggVorbis::1040642726861596602::1574768190::1740000040::1::::<><>::
+glass_002.ogg::AudioStreamOggVorbis::5704481263868078227::1574768192::1740000040::1::::<><>::
+glass_003.ogg::AudioStreamOggVorbis::3585660893756474446::1574768192::1740000039::1::::<><>::
+glass_004.ogg::AudioStreamOggVorbis::5140290733232050416::1574768192::1740000039::1::::<><>::
+glass_005.ogg::AudioStreamOggVorbis::6089643909791838560::1581866348::1740000040::1::::<><>::
+glass_006.ogg::AudioStreamOggVorbis::6897237546337339919::1581866350::1740000039::1::::<><>::
+glitch_001.ogg::AudioStreamOggVorbis::3167706449329617212::1574768192::1740000039::1::::<><>::
+glitch_002.ogg::AudioStreamOggVorbis::5305951648175443472::1574768192::1740000039::1::::<><>::
+glitch_003.ogg::AudioStreamOggVorbis::910097587188294339::1574768192::1740000039::1::::<><>::
+glitch_004.ogg::AudioStreamOggVorbis::8678328884949879822::1574768192::1740000039::1::::<><>::
+maximize_001.ogg::AudioStreamOggVorbis::635710097515696806::1581859852::1740000039::1::::<><>::
+maximize_002.ogg::AudioStreamOggVorbis::8228341409130214191::1581859852::1740000039::1::::<><>::
+maximize_003.ogg::AudioStreamOggVorbis::4107820662098104352::1581859852::1740000039::1::::<><>::
+maximize_004.ogg::AudioStreamOggVorbis::6140534664924104083::1581859852::1740000039::1::::<><>::
+maximize_005.ogg::AudioStreamOggVorbis::5305177449949471205::1581859852::1740000039::1::::<><>::
+maximize_006.ogg::AudioStreamOggVorbis::764404946617862494::1581871526::1740000039::1::::<><>::
+maximize_007.ogg::AudioStreamOggVorbis::7426757457779531468::1581871526::1740000039::1::::<><>::
+maximize_008.ogg::AudioStreamOggVorbis::1236258570223464086::1581871526::1740000039::1::::<><>::
+maximize_009.ogg::AudioStreamOggVorbis::3365550552125111423::1581871526::1740000039::1::::<><>::
+minimize_001.ogg::AudioStreamOggVorbis::4248926076829944612::1581859824::1740000039::1::::<><>::
+minimize_002.ogg::AudioStreamOggVorbis::2444539339834667730::1581859824::1740000039::1::::<><>::
+minimize_003.ogg::AudioStreamOggVorbis::6707264862686535607::1581859824::1740000039::1::::<><>::
+minimize_004.ogg::AudioStreamOggVorbis::5766685775041281031::1581859824::1740000039::1::::<><>::
+minimize_005.ogg::AudioStreamOggVorbis::6626326852688654216::1581859826::1740000039::1::::<><>::
+minimize_006.ogg::AudioStreamOggVorbis::1121450105809644040::1581871538::1740000039::1::::<><>::
+minimize_007.ogg::AudioStreamOggVorbis::179670495348466211::1581871538::1740000039::1::::<><>::
+minimize_008.ogg::AudioStreamOggVorbis::8364672265758487519::1581871538::1740000039::1::::<><>::
+minimize_009.ogg::AudioStreamOggVorbis::1177150550836124473::1581871540::1740000039::1::::<><>::
+open_001.ogg::AudioStreamOggVorbis::7796808784674857462::1581860332::1740000039::1::::<><>::
+open_002.ogg::AudioStreamOggVorbis::5795295205922819254::1581860332::1740000039::1::::<><>::
+open_003.ogg::AudioStreamOggVorbis::6029651752850515438::1581860332::1740000039::1::::<><>::
+open_004.ogg::AudioStreamOggVorbis::6486006649937503072::1581860332::1740000039::1::::<><>::
+pluck_001.ogg::AudioStreamOggVorbis::3858510427727098923::1574768192::1740000039::1::::<><>::
+pluck_002.ogg::AudioStreamOggVorbis::5283295985244046463::1574768194::1740000039::1::::<><>::
+question_001.ogg::AudioStreamOggVorbis::3954932054791661724::1581860120::1740000039::1::::<><>::
+question_002.ogg::AudioStreamOggVorbis::6154557822201593055::1581860120::1740000039::1::::<><>::
+question_003.ogg::AudioStreamOggVorbis::7622462256005096820::1581860120::1740000039::1::::<><>::
+question_004.ogg::AudioStreamOggVorbis::3219215422516234633::1581860122::1740000039::1::::<><>::
+scratch_001.ogg::AudioStreamOggVorbis::6099441146076400155::1581871720::1740000039::1::::<><>::
+scratch_002.ogg::AudioStreamOggVorbis::4232522888153026002::1581871720::1740000039::1::::<><>::
+scratch_003.ogg::AudioStreamOggVorbis::4721564528488228003::1581871720::1740000039::1::::<><>::
+scratch_004.ogg::AudioStreamOggVorbis::73663674794804097::1581871720::1740000039::1::::<><>::
+scratch_005.ogg::AudioStreamOggVorbis::2977111957325945052::1581871720::1740000039::1::::<><>::
+scroll_001.ogg::AudioStreamOggVorbis::2797804489243795129::1581378864::1740000039::1::::<><>::
+scroll_002.ogg::AudioStreamOggVorbis::5143894870500978651::1581378866::1740000039::1::::<><>::
+scroll_003.ogg::AudioStreamOggVorbis::1048279313272738183::1581378866::1740000039::1::::<><>::
+scroll_004.ogg::AudioStreamOggVorbis::6875436280694414130::1581378866::1740000039::1::::<><>::
+scroll_005.ogg::AudioStreamOggVorbis::5599685117842574456::1581378866::1740000039::1::::<><>::
+select_001.ogg::AudioStreamOggVorbis::4389225404977202700::1574768194::1740000039::1::::<><>::
+select_002.ogg::AudioStreamOggVorbis::4201930469505917248::1574768194::1740000039::1::::<><>::
+select_003.ogg::AudioStreamOggVorbis::5628576525742368118::1574768194::1740000039::1::::<><>::
+select_004.ogg::AudioStreamOggVorbis::3063363976177501503::1574768194::1740000039::1::::<><>::
+select_005.ogg::AudioStreamOggVorbis::3724250887395834262::1574768194::1740000039::1::::<><>::
+select_006.ogg::AudioStreamOggVorbis::601918193842528059::1574768194::1740000039::1::::<><>::
+select_007.ogg::AudioStreamOggVorbis::1466273691919613499::1581378866::1740000039::1::::<><>::
+select_008.ogg::AudioStreamOggVorbis::7825216521548758934::1581378866::1740000039::1::::<><>::
+switch_001.ogg::AudioStreamOggVorbis::7199272573420395574::1581869754::1740000039::1::::<><>::
+switch_002.ogg::AudioStreamOggVorbis::2723578142598100240::1581869754::1740000039::1::::<><>::
+switch_003.ogg::AudioStreamOggVorbis::9074687094435416086::1581869754::1740000039::1::::<><>::
+switch_004.ogg::AudioStreamOggVorbis::108696125769692722::1581869756::1740000039::1::::<><>::
+switch_005.ogg::AudioStreamOggVorbis::2215135048048669602::1581869756::1740000039::1::::<><>::
+switch_006.ogg::AudioStreamOggVorbis::3385456723870975908::1581869756::1740000039::1::::<><>::
+switch_007.ogg::AudioStreamOggVorbis::2526900194648164761::1581869756::1740000039::1::::<><>::
+tick_001.ogg::AudioStreamOggVorbis::217377227954465024::1574768196::1740000039::1::::<><>::
+tick_002.ogg::AudioStreamOggVorbis::1698389678573506266::1574768196::1740000039::1::::<><>::
+tick_004.ogg::AudioStreamOggVorbis::8354376795277516118::1574768196::1740000039::1::::<><>::
+toggle_001.ogg::AudioStreamOggVorbis::9128217555384442602::1581865724::1740000039::1::::<><>::
+toggle_002.ogg::AudioStreamOggVorbis::1892379424458931955::1581865724::1740000039::1::::<><>::
+toggle_003.ogg::AudioStreamOggVorbis::4356152222354951005::1581865726::1740000039::1::::<><>::
+toggle_004.ogg::AudioStreamOggVorbis::6224242419899828705::1581865726::1740000039::1::::<><>::
+::res://assets/space-age/::1739882545
 space age.otf::FontFile::5433148903542918321::1037063014::1739882545::1::::<><>::
 space age.ttf::FontFile::6207685168863727931::1036508470::1739882545::1::::<><>::
 Space.txt::TextFile::-1::1055821968::0::1::::<><>::
-::res://scenes/::1739882418
-main_menu.tscn::PackedScene::2325188263009245817::1739882418::0::1::::<><>::uid://f17hc5do0sll::::res://assets/Page d'acceuil space run.jpg<>res://scripts/main_menu.gd<>uid://y8xlykwc1wvj::::res://assets/Jouer.png<>uid://dwxt32onv5xel::::res://assets/Quitter.png<>res://scripts/jouer.gd<>res://scenes/quit_game.gd
-modules_menu.tscn::PackedScene::3192406270962857992::1739882418::0::1::::<><>::uid://cvakcjcl55q8w::::res://assets/back.png<>res://scripts/science_physique_technologiques.gd<>uid://cqodojy4p7omh::::res://assets/Planètes1.png<>uid://b1bbhafuv6c0b::::res://assets/Planètes2.png<>uid://dasv012orclit::::res://assets/Planètes3.png<>uid://xqea2878eecu::::res://assets/Planètes4.png<>uid://pjblsugfvor::::res://assets/Planètes5.png
-quit_game.gd::GDScript::-1::1739874646::0::1::::<>Area2D<>::
-ship.tscn::PackedScene::4460265988890484320::1739882418::0::1::::<><>::res://scripts/ship.gd<>uid://co8kabf4se3cy::::res://assets/true_ship.png
-space.tscn::PackedScene::4262603860753895134::1739882418::0::1::::<><>::uid://cvakcjcl55q8w::::res://assets/back.png<>uid://b4st6uewbpybw::::res://scenes/ship.tscn
-::res://scripts/::1739882365
-jouer.gd::GDScript::-1::1739882365::0::1::::<>Area2D<>::
-main_menu.gd::GDScript::-1::1739873866::0::1::::<>Node2D<>::
+::res://scenes/::1740035244
+astro1.tscn::PackedScene::4966041392572408202::1740035132::0::1::::<><>::res://scripts/astro.gd<>uid://bulentj3m7cox::::res://assets/Astronaute1.png
+astro2.tscn::PackedScene::3584869444170832200::1740035132::0::1::::<><>::uid://pe1cx7vysysg::::res://assets/Astronaute2.png<>res://scripts/astro.gd
+astro3.tscn::PackedScene::8093065114194819890::1740035132::0::1::::<><>::res://scripts/astro.gd<>uid://cknbvh5e8cmgm::::res://assets/Astronaute3.png
+conj_quiz.tscn::PackedScene::3952788043326399893::1740035235::0::1::::<><>::res://scripts/sciences_quiz_handler.gd<>uid://cvakcjcl55q8w::::res://assets/back.png<>uid://b4st6uewbpybw::::res://scenes/ship.tscn<>res://scripts/ship_histoire.gd<>uid://cc0t8gqdc7mn7::::res://scenes/astro1.tscn<>uid://brcsjnbqyspuu::::res://scenes/astro2.tscn<>uid://dnklunvfh0i47::::res://scenes/astro3.tscn<>uid://cupbwx7kqt1hn::::res://assets/space-age/space age.ttf<>uid://da5h57iqenve::::res://assets/Space nigga expression faciales mauvaise reponse 1.png<>uid://br4vgdwqv6cbb::::res://assets/Space nigga expression faciales bonne reponse 1.png<>uid://d3b1n6mrov7ni::::res://assets/sound/kenney_interface-sounds/Audio/toggle_001.ogg<>uid://pybdg3twj36d::::res://assets/sound/Menu Selection Click.wav<>uid://d4hjod0ycwnlt::::res://assets/sound/Infinite Orbit.mp3<>uid://cxk34yt4dvlhj::::res://assets/sound/correct.mp3<>uid://bpc0tt8faommb::::res://assets/sound/false.wav<>uid://bal80jxbbdlkf::::res://assets/sound/applause.mp3<>uid://jqvg6niafiti::::res://assets/Space nigga expression faciales bonne reponse 2.png
+geo_quiz.tscn::PackedScene::650586453971401320::1740035201::0::1::::<><>::res://scripts/sciences_quiz_handler.gd<>uid://cvakcjcl55q8w::::res://assets/back.png<>uid://b4st6uewbpybw::::res://scenes/ship.tscn<>res://scripts/ship_histoire.gd<>uid://cc0t8gqdc7mn7::::res://scenes/astro1.tscn<>uid://brcsjnbqyspuu::::res://scenes/astro2.tscn<>uid://dnklunvfh0i47::::res://scenes/astro3.tscn<>uid://cupbwx7kqt1hn::::res://assets/space-age/space age.ttf<>uid://da5h57iqenve::::res://assets/Space nigga expression faciales mauvaise reponse 1.png<>uid://br4vgdwqv6cbb::::res://assets/Space nigga expression faciales bonne reponse 1.png<>uid://d3b1n6mrov7ni::::res://assets/sound/kenney_interface-sounds/Audio/toggle_001.ogg<>uid://pybdg3twj36d::::res://assets/sound/Menu Selection Click.wav<>uid://d4hjod0ycwnlt::::res://assets/sound/Infinite Orbit.mp3<>uid://cxk34yt4dvlhj::::res://assets/sound/correct.mp3<>uid://bpc0tt8faommb::::res://assets/sound/false.wav<>uid://bal80jxbbdlkf::::res://assets/sound/applause.mp3<>uid://jqvg6niafiti::::res://assets/Space nigga expression faciales bonne reponse 2.png
+histoire_quiz.tscn::PackedScene::8567608880123929005::1740035244::0::1::::<><>::res://scripts/sciences_quiz_handler.gd<>uid://cvakcjcl55q8w::::res://assets/back.png<>uid://b4st6uewbpybw::::res://scenes/ship.tscn<>uid://cc0t8gqdc7mn7::::res://scenes/astro1.tscn<>res://scripts/ship_histoire.gd<>uid://brcsjnbqyspuu::::res://scenes/astro2.tscn<>uid://dnklunvfh0i47::::res://scenes/astro3.tscn<>uid://cupbwx7kqt1hn::::res://assets/space-age/space age.ttf<>uid://da5h57iqenve::::res://assets/Space nigga expression faciales mauvaise reponse 1.png<>uid://br4vgdwqv6cbb::::res://assets/Space nigga expression faciales bonne reponse 1.png<>uid://d3b1n6mrov7ni::::res://assets/sound/kenney_interface-sounds/Audio/toggle_001.ogg<>uid://pybdg3twj36d::::res://assets/sound/Menu Selection Click.wav<>uid://d4hjod0ycwnlt::::res://assets/sound/Infinite Orbit.mp3<>uid://cxk34yt4dvlhj::::res://assets/sound/correct.mp3<>uid://bpc0tt8faommb::::res://assets/sound/false.wav<>uid://bal80jxbbdlkf::::res://assets/sound/applause.mp3<>uid://jqvg6niafiti::::res://assets/Space nigga expression faciales bonne reponse 2.png
+main_menu.tscn::PackedScene::2325188263009245817::1740035132::0::1::::<><>::uid://f17hc5do0sll::::res://assets/Page d'acceuil space run.jpg<>res://scripts/main_menu.gd<>uid://y8xlykwc1wvj::::res://assets/Jouer.png<>uid://dwxt32onv5xel::::res://assets/Quitter.png<>res://scripts/jouer.gd<>uid://d3b1n6mrov7ni::::res://assets/sound/kenney_interface-sounds/Audio/toggle_001.ogg<>res://scripts/quit_game.gd<>uid://ctrs5r0sgse7n::::res://assets/sound/Cosmic Menu.mp3<>uid://pybdg3twj36d::::res://assets/sound/Menu Selection Click.wav
+maths_quiz.tscn::PackedScene::5721038552778688908::1740035222::0::1::::<><>::res://scripts/sciences_quiz_handler.gd<>uid://cvakcjcl55q8w::::res://assets/back.png<>uid://b4st6uewbpybw::::res://scenes/ship.tscn<>res://scripts/ship_histoire.gd<>uid://cc0t8gqdc7mn7::::res://scenes/astro1.tscn<>uid://brcsjnbqyspuu::::res://scenes/astro2.tscn<>uid://dnklunvfh0i47::::res://scenes/astro3.tscn<>uid://cupbwx7kqt1hn::::res://assets/space-age/space age.ttf<>uid://da5h57iqenve::::res://assets/Space nigga expression faciales mauvaise reponse 1.png<>uid://br4vgdwqv6cbb::::res://assets/Space nigga expression faciales bonne reponse 1.png<>uid://d3b1n6mrov7ni::::res://assets/sound/kenney_interface-sounds/Audio/toggle_001.ogg<>uid://pybdg3twj36d::::res://assets/sound/Menu Selection Click.wav<>uid://d4hjod0ycwnlt::::res://assets/sound/Infinite Orbit.mp3<>uid://cxk34yt4dvlhj::::res://assets/sound/correct.mp3<>uid://bpc0tt8faommb::::res://assets/sound/false.wav<>uid://bal80jxbbdlkf::::res://assets/sound/applause.mp3<>uid://jqvg6niafiti::::res://assets/Space nigga expression faciales bonne reponse 2.png
+modules_menu.tscn::PackedScene::3192406270962857992::1740035132::0::1::::<><>::uid://1cnd6to2xfen::::res://assets/Background menu selection.png<>res://scripts/science_physique_technologiques.gd<>uid://dstj5bvddimhv::::res://assets/imagecompressor/Planètes1-min.png<>res://scripts/histoire.gd<>uid://bmjmtwe8wweln::::res://assets/imagecompressor/Planètes2-min.png<>res://scripts/geographie.gd<>uid://e33jm2cdfi0k::::res://assets/imagecompressor/Planètes3-min.png<>res://scripts/maths.gd<>uid://cupbwx7kqt1hn::::res://assets/space-age/space age.ttf<>uid://cm83bywxxvw46::::res://assets/imagecompressor/Planètes4-min.png<>res://scripts/conjugaison.gd<>uid://dd0b6inb1ckpd::::res://assets/imagecompressor/Planètes5-min.png<>uid://d3b1n6mrov7ni::::res://assets/sound/kenney_interface-sounds/Audio/toggle_001.ogg<>uid://pybdg3twj36d::::res://assets/sound/Menu Selection Click.wav<>uid://dwvn1q1d6vgs4::::res://assets/sound/Floating Choices.mp3
+science_quiz.tscn::PackedScene::4262603860753895134::1740035132::0::1::::<><>::uid://cvakcjcl55q8w::::res://assets/back.png<>res://scripts/sciences_quiz_handler.gd<>uid://b4st6uewbpybw::::res://scenes/ship.tscn<>uid://cc0t8gqdc7mn7::::res://scenes/astro1.tscn<>uid://brcsjnbqyspuu::::res://scenes/astro2.tscn<>uid://dnklunvfh0i47::::res://scenes/astro3.tscn<>uid://cupbwx7kqt1hn::::res://assets/space-age/space age.ttf<>uid://jqvg6niafiti::::res://assets/Space nigga expression faciales bonne reponse 2.png<>uid://da5h57iqenve::::res://assets/Space nigga expression faciales mauvaise reponse 1.png<>uid://br4vgdwqv6cbb::::res://assets/Space nigga expression faciales bonne reponse 1.png<>uid://d3b1n6mrov7ni::::res://assets/sound/kenney_interface-sounds/Audio/toggle_001.ogg<>uid://pybdg3twj36d::::res://assets/sound/Menu Selection Click.wav<>uid://d4hjod0ycwnlt::::res://assets/sound/Infinite Orbit.mp3<>uid://cxk34yt4dvlhj::::res://assets/sound/correct.mp3<>uid://bpc0tt8faommb::::res://assets/sound/false.wav<>uid://bal80jxbbdlkf::::res://assets/sound/applause.mp3
+ship.tscn::PackedScene::4460265988890484320::1740035131::0::1::::<><>::res://scripts/ship_science.gd<>uid://co8kabf4se3cy::::res://assets/true_ship.png
+::res://scripts/::1740035279
+astro.gd::GDScript::-1::1740000399::0::1::::<>Area2D<>::
+conjugaison.gd::GDScript::-1::1740002239::0::1::::<>Area2D<>::
+geographie.gd::GDScript::-1::1740002214::0::1::::<>Area2D<>::
+histoire.gd::GDScript::-1::1740034689::0::1::::<>Area2D<>::
+jouer.gd::GDScript::-1::1740002555::0::1::::<>Area2D<>::
+main_menu.gd::GDScript::-1::1739961565::0::1::::<>Node2D<>::
+maths.gd::GDScript::-1::1740002227::0::1::::<>Area2D<>::
 player.gd::GDScript::-1::1739806608::0::1::::<>CharacterBody2D<>::
-science_physique_technologiques.gd::GDScript::-1::1739881148::0::1::::<>Area2D<>::
-ship.gd::GDScript::-1::1739875205::0::1::::<>CharacterBody2D<>::
+quit_game.gd::GDScript::-1::1740000829::0::1::::<>Area2D<>::
+sciences_quiz_handler.gd::GDScript::-1::1739991991::0::1::::<>Node2D<>::
+science_physique_technologiques.gd::GDScript::-1::1740034706::0::1::::<>Area2D<>::
+ship_geo.gd::GDScript::-1::1740035270::0::1::::<>CharacterBody2D<>::
+ship_histoire.gd::GDScript::-1::1740034974::0::1::::<>CharacterBody2D<>::
+ship_maths.gd::GDScript::-1::1740035279::0::1::::<>CharacterBody2D<>::
+ship_science.gd::GDScript::-1::1740034466::0::1::::<>CharacterBody2D<>::

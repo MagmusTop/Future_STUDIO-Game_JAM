@@ -1,0 +1,194 @@
+[gd_scene load_steps=21 format=3 uid="uid://cnrkw0qx42ufk"]
+
+[ext_resource type="Script" path="res://scripts/sciences_quiz_handler.gd" id="1_sjnxr"]
+[ext_resource type="Texture2D" uid="uid://cvakcjcl55q8w" path="res://assets/back.png" id="2_tfmen"]
+[ext_resource type="PackedScene" uid="uid://b4st6uewbpybw" path="res://scenes/ship.tscn" id="3_gpyxu"]
+[ext_resource type="Script" path="res://scripts/ship_maths.gd" id="4_edcex"]
+[ext_resource type="PackedScene" uid="uid://cc0t8gqdc7mn7" path="res://scenes/astro1.tscn" id="5_sbkq7"]
+[ext_resource type="PackedScene" uid="uid://brcsjnbqyspuu" path="res://scenes/astro2.tscn" id="6_bcb1v"]
+[ext_resource type="PackedScene" uid="uid://dnklunvfh0i47" path="res://scenes/astro3.tscn" id="7_axump"]
+[ext_resource type="FontFile" uid="uid://cupbwx7kqt1hn" path="res://assets/space-age/space age.ttf" id="8_1ega0"]
+[ext_resource type="Texture2D" uid="uid://da5h57iqenve" path="res://assets/Space nigga expression faciales mauvaise reponse 1.png" id="9_y5mdd"]
+[ext_resource type="Texture2D" uid="uid://br4vgdwqv6cbb" path="res://assets/Space nigga expression faciales bonne reponse 1.png" id="10_bkj2w"]
+[ext_resource type="AudioStream" uid="uid://d3b1n6mrov7ni" path="res://assets/sound/kenney_interface-sounds/Audio/toggle_001.ogg" id="11_nugto"]
+[ext_resource type="AudioStream" uid="uid://pybdg3twj36d" path="res://assets/sound/Menu Selection Click.wav" id="12_pytkq"]
+[ext_resource type="AudioStream" uid="uid://d4hjod0ycwnlt" path="res://assets/sound/Infinite Orbit.mp3" id="13_dobes"]
+[ext_resource type="AudioStream" uid="uid://cxk34yt4dvlhj" path="res://assets/sound/correct.mp3" id="14_lh01t"]
+[ext_resource type="AudioStream" uid="uid://bpc0tt8faommb" path="res://assets/sound/false.wav" id="15_3yjcu"]
+[ext_resource type="AudioStream" uid="uid://bal80jxbbdlkf" path="res://assets/sound/applause.mp3" id="16_r1onl"]
+[ext_resource type="Texture2D" uid="uid://jqvg6niafiti" path="res://assets/Space nigga expression faciales bonne reponse 2.png" id="17_nvjlp"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xpcnj"]
+atlas = ExtResource("9_y5mdd")
+region = Rect2(0, 1920, 2160, 1920)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m2tug"]
+atlas = ExtResource("10_bkj2w")
+region = Rect2(0, 1920, 2160, 1920)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_gsqk8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xpcnj")
+}],
+"loop": true,
+"name": &"bad",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m2tug")
+}],
+"loop": true,
+"name": &"good",
+"speed": 5.0
+}]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_sjnxr")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="Camera2D"]
+position = Vector2(-1.62508, 22)
+scale = Vector2(0.94397, 0.726562)
+texture = ExtResource("2_tfmen")
+
+[node name="CharacterBody2D" parent="Camera2D" instance=ExtResource("3_gpyxu")]
+position = Vector2(-511, -59)
+script = ExtResource("4_edcex")
+
+[node name="RigidBody2D" type="StaticBody2D" parent="Camera2D"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Camera2D/RigidBody2D"]
+polygon = PackedVector2Array(-915, -507, -912, 516, 1079, 522, 1029, 647, -1175, 644, -1019, -674, 1099, -640, 930, 550, 867, -510)
+
+[node name="astro1" parent="Camera2D" groups=["astro"] instance=ExtResource("5_sbkq7")]
+position = Vector2(405, -278)
+
+[node name="astro2" parent="Camera2D" groups=["astro"] instance=ExtResource("6_bcb1v")]
+position = Vector2(307, -91)
+
+[node name="astro3" parent="Camera2D" groups=["astro"] instance=ExtResource("7_axump")]
+position = Vector2(437, 161)
+
+[node name="QuestionLabel" type="Label" parent="Camera2D" groups=["Texts"]]
+unique_name_in_owner = true
+offset_left = -869.0
+offset_top = -481.0
+offset_right = 60.0
+offset_bottom = -420.0
+theme_override_fonts/font = ExtResource("8_1ega0")
+theme_override_font_sizes/font_size = 20
+
+[node name="AnswerLabel1" type="Label" parent="Camera2D" groups=["Texts"]]
+unique_name_in_owner = true
+offset_left = -892.0
+offset_top = 277.0
+offset_right = -480.0
+offset_bottom = 317.0
+theme_override_fonts/font = ExtResource("8_1ega0")
+theme_override_font_sizes/font_size = 20
+
+[node name="AnswerLabel2" type="Label" parent="Camera2D" groups=["Texts"]]
+unique_name_in_owner = true
+offset_left = -892.0
+offset_top = 352.0
+offset_right = -535.0
+offset_bottom = 392.0
+theme_override_fonts/font = ExtResource("8_1ega0")
+theme_override_font_sizes/font_size = 20
+
+[node name="AnswerLabel3" type="Label" parent="Camera2D" groups=["Texts"]]
+unique_name_in_owner = true
+offset_left = -893.0
+offset_top = 424.0
+offset_right = -512.0
+offset_bottom = 476.0
+theme_override_fonts/font = ExtResource("8_1ega0")
+theme_override_font_sizes/font_size = 20
+
+[node name="Timer" type="Timer" parent="Camera2D"]
+
+[node name="AstroFace" type="AnimatedSprite2D" parent="Camera2D"]
+position = Vector2(-699, -327)
+scale = Vector2(0.0662037, 0.0619792)
+sprite_frames = SubResource("SpriteFrames_gsqk8")
+animation = &"good"
+
+[node name="HintPopup" type="Panel" parent="Camera2D"]
+visible = false
+offset_left = -492.0
+offset_top = -218.0
+offset_right = 395.0
+offset_bottom = 257.0
+metadata/_edit_group_ = true
+
+[node name="HintLabel" type="Label" parent="Camera2D/HintPopup"]
+layout_mode = 0
+offset_left = 105.0
+offset_top = 81.0
+offset_right = 792.0
+offset_bottom = 318.0
+
+[node name="TitleLabel" type="Label" parent="Camera2D/HintPopup"]
+layout_mode = 0
+offset_left = 105.0
+offset_top = 29.0
+offset_right = 757.0
+offset_bottom = 78.0
+
+[node name="CloseButton" type="Button" parent="Camera2D/HintPopup"]
+layout_mode = 0
+offset_left = 330.0
+offset_top = 377.0
+offset_right = 578.0
+offset_bottom = 447.0
+text = "J'ai compris !"
+
+[node name="HoverSound" type="AudioStreamPlayer" parent="Camera2D"]
+stream = ExtResource("11_nugto")
+volume_db = -10.0
+
+[node name="ClickSound" type="AudioStreamPlayer" parent="Camera2D"]
+stream = ExtResource("12_pytkq")
+
+[node name="GameLoopSound" type="AudioStreamPlayer" parent="Camera2D"]
+stream = ExtResource("13_dobes")
+autoplay = true
+parameters/looping = true
+
+[node name="GoodResponseSound" type="AudioStreamPlayer" parent="Camera2D"]
+stream = ExtResource("14_lh01t")
+
+[node name="BadResponseSound" type="AudioStreamPlayer" parent="Camera2D"]
+stream = ExtResource("15_3yjcu")
+volume_db = -10.0
+
+[node name="GameEndSound" type="AudioStreamPlayer" parent="Camera2D"]
+stream = ExtResource("16_r1onl")
+
+[node name="DialogBaloon" type="Sprite2D" parent="Camera2D"]
+position = Vector2(-773, -269)
+scale = Vector2(0.123611, 0.115885)
+texture = ExtResource("17_nvjlp")
+
+[node name="AnswerValidation" type="Label" parent="Camera2D"]
+z_index = 3
+offset_left = -867.0
+offset_top = -364.0
+offset_right = -611.0
+offset_bottom = -334.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+
+[node name="TimerLabel" type="Label" parent="Camera2D"]
+z_index = 3
+offset_left = 7.0
+offset_top = 472.0
+offset_right = 344.0
+offset_bottom = 579.0
+theme_override_fonts/font = ExtResource("8_1ega0")
+theme_override_font_sizes/font_size = 42
+
+[connection signal="pressed" from="Camera2D/HintPopup/CloseButton" to="." method="_on_close_button_pressed"]

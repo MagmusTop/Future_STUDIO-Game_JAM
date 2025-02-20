@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cq3ps1oawqdo8"
+path="res://.godot/imported/Ian Post - Super Duper.mp3-4cc8f6d4a6b1c2282ba3276e9729e10f.mp3str"
+
+[deps]
+
+source_file="res://assets/sound/Ian Post - Super Duper.mp3"
+dest_files=["res://.godot/imported/Ian Post - Super Duper.mp3-4cc8f6d4a6b1c2282ba3276e9729e10f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

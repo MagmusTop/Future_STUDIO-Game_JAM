@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://brcsjnbqyspuu"]
+
+[ext_resource type="Texture2D" uid="uid://pe1cx7vysysg" path="res://assets/Astronaute2.png" id="1_w4ubf"]
+[ext_resource type="Script" path="res://scripts/astro.gd" id="1_wfs60"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dahit"]
+size = Vector2(43.8811, 82.8737)
+
+[node name="Area2D" type="Area2D"]
+collision_layer = 2
+script = ExtResource("1_wfs60")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(70.3566, 8.26112)
+rotation = 1.51249
+scale = Vector2(0.0239842, 0.0254164)
+texture = ExtResource("1_w4ubf")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(68, 21)
+rotation = -0.751439
+shape = SubResource("RectangleShape2D_dahit")
