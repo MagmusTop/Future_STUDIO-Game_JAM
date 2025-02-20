@@ -22,7 +22,7 @@ extends CharacterBody2D
 @onready var timer_label = $"../TimerLabel"
 @onready var countdown_timer = Timer.new()
 
-const SPEED = 300.0
+const SPEED = 400.0
 
 var current_question_index: int = 0
 var good_answers: int = 0
@@ -30,7 +30,7 @@ var bad_answers: int = 0
 var score: int = 0
 var start_position = Vector2()
 var is_correct_answer = false
-var time_remaining = 15
+var time_remaining = 30
 var questions = [
 	{
 		"question": "Quelle est la somme de 245 et 678 ?",
@@ -75,7 +75,7 @@ Bienvenue dans le Quiz Spatial !
 
 Dirigez le vaisseau vers l'astronaute qui porte la bonne réponse.
 Vous gagnez 5 points pour chaque bonne réponse, perdez 1 point pour chaque mauvaise réponse ou un timeout.
-Vous avez 15 secondes pour répondre à chaque question.
+Vous avez 30 secondes pour répondre à chaque question.
 Utilisez les flèches du clavier pour vous déplacer.
 
 Bonne chance !
@@ -150,9 +150,9 @@ func setup_popup():
 	
 	title_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	title_label.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
-	title_label.custom_minimum_size.y = 40
+	title_label.custom_minimum_size.y = 50
 	title_label.add_theme_color_override("font_color", Color("#ffc13b"))
-	title_label.add_theme_font_size_override("font_size", 24)
+	title_label.add_theme_font_size_override("font_size", 32)
 	
 	var button_style = StyleBoxFlat.new()
 	button_style.bg_color = Color("#ff6e40")
@@ -166,18 +166,18 @@ func setup_popup():
 	button_style.corner_radius_bottom_left = 5
 	button_style.corner_radius_bottom_right = 5
 	
-	close_button.custom_minimum_size = Vector2(200, 40)
+	close_button.custom_minimum_size = Vector2(250, 50)
 	close_button.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
 	close_button.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 	close_button.add_theme_stylebox_override("normal", button_style)
 	close_button.add_theme_color_override("font_color", Color.WHITE)
-	close_button.add_theme_font_size_override("font_size", 18)
+	close_button.add_theme_font_size_override("font_size", 24)
 	
 	hint_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	hint_label.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
-	hint_label.custom_minimum_size = Vector2(360, 0)
+	hint_label.custom_minimum_size = Vector2(400, 0)
 	hint_label.add_theme_color_override("font_color", Color.WHITE)
-	hint_label.add_theme_font_size_override("font_size", 16)
+	hint_label.add_theme_font_size_override("font_size", 20)
 	
 	hint_label.add_theme_constant_override("margin_top", 10)
 	hint_label.add_theme_constant_override("margin_bottom", 20)
@@ -311,7 +311,7 @@ func setup_new_question():
 	astro_face.hide()
 	dialog_baloon.hide()
 	ans_validation.text = ""
-	time_remaining = 15
+	time_remaining = 30
 	timer_label.text = str(time_remaining)
 	countdown_timer.start()
 

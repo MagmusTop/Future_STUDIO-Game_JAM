@@ -108,49 +108,49 @@ theme_override_font_sizes/font_size = 42
 text = "ENVOLE TOI POUR UNE DE CES PLANETES !"
 
 [node name="ConjName" type="Label" parent="."]
-offset_left = 584.0
-offset_top = -156.0
-offset_right = 726.0
-offset_bottom = -133.0
+offset_left = 564.0
+offset_top = -168.0
+offset_right = 706.0
+offset_bottom = -125.0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_fonts/font = ExtResource("8_us18b")
-theme_override_font_sizes/font_size = 20
+theme_override_font_sizes/font_size = 25
 
 [node name="GeoName" type="Label" parent="."]
-offset_left = -90.0
-offset_top = -222.0
-offset_right = 60.0
-offset_bottom = -199.0
+offset_left = -94.0
+offset_top = -242.0
+offset_right = 56.0
+offset_bottom = -213.0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_fonts/font = ExtResource("8_us18b")
-theme_override_font_sizes/font_size = 20
+theme_override_font_sizes/font_size = 25
 
 [node name="MathsName" type="Label" parent="."]
-offset_left = 262.0
-offset_top = 86.0
-offset_right = 458.0
-offset_bottom = 127.0
+offset_left = 202.0
+offset_top = 76.0
+offset_right = 398.0
+offset_bottom = 117.0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_fonts/font = ExtResource("8_us18b")
-theme_override_font_sizes/font_size = 20
+theme_override_font_sizes/font_size = 30
 
 [node name="SciencesName" type="Label" parent="."]
-offset_left = -882.0
-offset_top = -216.0
-offset_right = -686.0
-offset_bottom = -175.0
+offset_left = -946.0
+offset_top = -222.0
+offset_right = -750.0
+offset_bottom = -181.0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_fonts/font = ExtResource("8_us18b")
-theme_override_font_sizes/font_size = 20
+theme_override_font_sizes/font_size = 25
 
 [node name="HistoireName" type="Label" parent="."]
-offset_left = -280.0
-offset_top = 164.0
-offset_right = -84.0
-offset_bottom = 205.0
+offset_left = -284.0
+offset_top = 156.0
+offset_right = -88.0
+offset_bottom = 197.0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_fonts/font = ExtResource("8_us18b")
-theme_override_font_sizes/font_size = 20
+theme_override_font_sizes/font_size = 25
 
 [node name="HoverSound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("13_xmkyt")

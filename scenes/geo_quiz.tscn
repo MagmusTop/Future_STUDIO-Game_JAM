@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3 uid="uid://jjfcf2monnbk"]
+[gd_scene load_steps=22 format=3 uid="uid://jjfcf2monnbk"]
 
 [ext_resource type="Script" path="res://scripts/sciences_quiz_handler.gd" id="1_heia1"]
 [ext_resource type="Texture2D" uid="uid://cvakcjcl55q8w" path="res://assets/back.png" id="2_kdl7r"]
@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://cc0t8gqdc7mn7" path="res://scenes/astro1.tscn" id="5_th8lo"]
 [ext_resource type="PackedScene" uid="uid://brcsjnbqyspuu" path="res://scenes/astro2.tscn" id="6_4hvnv"]
 [ext_resource type="PackedScene" uid="uid://dnklunvfh0i47" path="res://scenes/astro3.tscn" id="7_6w6mb"]
+[ext_resource type="FontFile" uid="uid://bpsiyy5ivn5y0" path="res://assets/asimilates-Regular.ttf" id="8_dra6s"]
 [ext_resource type="FontFile" uid="uid://cupbwx7kqt1hn" path="res://assets/space-age/space age.ttf" id="8_s1brh"]
 [ext_resource type="Texture2D" uid="uid://da5h57iqenve" path="res://assets/Space nigga expression faciales mauvaise reponse 1.png" id="9_oe6pd"]
 [ext_resource type="Texture2D" uid="uid://br4vgdwqv6cbb" path="res://assets/Space nigga expression faciales bonne reponse 1.png" id="10_7au22"]
@@ -79,8 +80,8 @@ offset_left = -869.0
 offset_top = -481.0
 offset_right = 60.0
 offset_bottom = -420.0
-theme_override_fonts/font = ExtResource("8_s1brh")
-theme_override_font_sizes/font_size = 20
+theme_override_fonts/font = ExtResource("8_dra6s")
+theme_override_font_sizes/font_size = 30
 
 [node name="AnswerLabel1" type="Label" parent="Camera2D" groups=["Texts"]]
 unique_name_in_owner = true
@@ -88,8 +89,8 @@ offset_left = -892.0
 offset_top = 277.0
 offset_right = -480.0
 offset_bottom = 317.0
-theme_override_fonts/font = ExtResource("8_s1brh")
-theme_override_font_sizes/font_size = 20
+theme_override_fonts/font = ExtResource("8_dra6s")
+theme_override_font_sizes/font_size = 30
 
 [node name="AnswerLabel2" type="Label" parent="Camera2D" groups=["Texts"]]
 unique_name_in_owner = true
@@ -97,8 +98,8 @@ offset_left = -892.0
 offset_top = 352.0
 offset_right = -535.0
 offset_bottom = 392.0
-theme_override_fonts/font = ExtResource("8_s1brh")
-theme_override_font_sizes/font_size = 20
+theme_override_fonts/font = ExtResource("8_dra6s")
+theme_override_font_sizes/font_size = 30
 
 [node name="AnswerLabel3" type="Label" parent="Camera2D" groups=["Texts"]]
 unique_name_in_owner = true
@@ -106,8 +107,8 @@ offset_left = -893.0
 offset_top = 424.0
 offset_right = -512.0
 offset_bottom = 476.0
-theme_override_fonts/font = ExtResource("8_s1brh")
-theme_override_font_sizes/font_size = 20
+theme_override_fonts/font = ExtResource("8_dra6s")
+theme_override_font_sizes/font_size = 30
 
 [node name="Timer" type="Timer" parent="Camera2D"]
 
@@ -131,6 +132,7 @@ offset_left = 105.0
 offset_top = 81.0
 offset_right = 792.0
 offset_bottom = 318.0
+theme_override_fonts/font = ExtResource("8_dra6s")
 
 [node name="TitleLabel" type="Label" parent="Camera2D/HintPopup"]
 layout_mode = 0
@@ -138,6 +140,7 @@ offset_left = 105.0
 offset_top = 29.0
 offset_right = 757.0
 offset_bottom = 78.0
+theme_override_fonts/font = ExtResource("8_dra6s")
 
 [node name="CloseButton" type="Button" parent="Camera2D/HintPopup"]
 layout_mode = 0
@@ -145,6 +148,7 @@ offset_left = 330.0
 offset_top = 377.0
 offset_right = 578.0
 offset_bottom = 447.0
+theme_override_fonts/font = ExtResource("8_dra6s")
 text = "J'ai compris !"
 
 [node name="HoverSound" type="AudioStreamPlayer" parent="Camera2D"]
@@ -181,6 +185,7 @@ offset_top = -364.0
 offset_right = -611.0
 offset_bottom = -334.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("8_dra6s")
 
 [node name="TimerLabel" type="Label" parent="Camera2D"]
 z_index = 3
